@@ -1,26 +1,28 @@
 # Your Footprint
-[Take a 10 question cabron footprint quiz, and depending on your results you will get feedback in notification to help you shrink it.]
+Take a 10 question cabron footprint quiz, and depending on your results you will get feedback in notification to help you shrink it.
 ​
 ​## Audience
-​[The app audience is targeted to all people who wants to make a difference with small actions.]
+​The app audience is targeted to all people who wants to make a difference with small actions.
 ​
 ​## Experience
 ​A user opens the app and the first thing he does is to make this questionary, after this the user will get feedback on his results and through the week you will get personalized notifications with little actions or tips that can help you make a difference. This way every sunday will show a summary of his progress and will recive an email with all of the users data together representing the total change.
 ​
 ​# Technical
 ​## Models
-​["User" Firebase
-​-Name: String
-​-email: String
-​-[quizScore]: Int
-​-quizAverage: Int
-​-password: String
+​"User" Firebase
+	​-Name: String
+	​-email: String
+	​-[quizScore]: Int
+	​-quizAverage: Int
+	​-password: String
 ​"Quiz" Struct
-​-Questions: String
-​-Answers: String
-​-Result: Int
+	​-Questions: String
+	​-Answers: String
+	​-Result: Int
 ​"Question" Struct
-​]
+	Question: String
+	Answer: Int
+	Score: [String, Int]
 ​
 ​## Views
 ​[HomeStoryboard - Where you can see graphically how much is your footprint going 
